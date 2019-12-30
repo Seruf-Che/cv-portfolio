@@ -1,0 +1,80 @@
+.heading {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  font-family: @font-heading;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  &--3 {
+    text-transform: none;
+  }
+  
+  &--centered {
+    text-align: center;
+  }
+    
+  &--doted::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -30px;
+    display: block;
+    margin: auto;
+    height: 4px;
+    width: 10px;
+    background-color: @color-bg;
+  }
+
+  &--left-doted::after {
+    left: -30px;
+    right: auto;
+    background-color: @color-content;
+  }
+    
+    
+  &--portfolio {
+    color: @color-bg;
+    font-family: @font;
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 700;
+    text-transform: none;
+  }
+    
+  @media only screen and @tablet-width {
+    &--doted::after {
+      right: auto;
+      left: -30px;
+    }
+  }
+}
+
+p {
+  margin: 10px 0;
+}
+
+.text {
+
+  &--big {
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.link {
+  color: @color-content;
+  text-decoration: none;
+  transition: all 0.5s;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &--inverted {
+    color: @color-bg;
+  }
+}

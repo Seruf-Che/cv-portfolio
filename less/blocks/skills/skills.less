@@ -1,0 +1,183 @@
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  &--space-around {
+    justify-content: space-around;
+  }
+
+  &--wide-items .skills__item {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  &__item {
+    position: relative;
+    display: block;
+    margin: 5px 0;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 80px;
+    border: 5px @color-bg solid;
+    border-radius: 50%;
+    overflow: hidden;
+    transition: all 0.5s;
+
+    &:hover {
+      background-color: @color-bg;
+      border-radius: 0;
+    }
+
+    &:hover .skills__icon {
+      top: -200px;
+      border-radius: 0;
+      opacity: 0;
+    }
+
+    &:hover .skills__meta {
+      opacity: 1;
+    }
+  }
+
+  &__icon {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.5s;
+
+    &--html {
+      background-image: url('../img/html.png');
+    }
+
+    &--css {
+      background-image: url('../img/css.png');
+    }
+
+    &--js {
+      background-image: url('../img/js.png');
+    }
+
+    &--jquery {
+      background-image: url('../img/jquery.png');
+    }
+
+    &--wp {
+      background-image: url('../img/wordpress.png');
+    }
+
+    &--grunt {
+      background-image: url('../img/grunt.png');
+    }
+
+    &--php {
+      background-image: url('../img/php.png');
+    }
+
+    &--less {
+      background-image: url('../img/less.png');
+    }
+
+    &--photoshop {
+      background-image: url('../img/photoshop.png');
+    }
+
+    &--corel {
+      background-image: url('../img/corel.png');
+    }
+
+    &--autocad {
+      background-image: url('../img/autocad.png');
+    }
+
+    &--web {
+      background-image: url('../img/web.png');
+    }
+
+    &--f1 {
+      background-image: url('../img/f1-car.png');
+    }
+
+    &--tennis {
+      background-image: url('../img/tennis.png');
+    }
+
+    &--travelling {
+      background-image: url('../img/travelling.png');
+    }
+
+    &--board-game {
+      background-image: url('../img/board-game.png');
+    }
+
+    &--react {
+      background-image: url('../img/react.png');
+    }
+
+    &--gulp {
+      background-image: url('../img/gulp.png');
+    }
+
+    &--sass {
+      background-image: url('../img/sass.png');
+    }
+
+    &--nodejs {
+      background-image: url('../img/nodejs.png');
+    }
+
+    &--mongodb {
+      background-image: url('../img/mongodb.png');
+    }
+
+    &--simracing {
+      background-image: url('../img/simracing.png');
+    }
+  }
+
+  &__meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    font-size: 12px;
+    line-height: 14px;
+    color: @color-content;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s;
+
+    &--more-text {
+      padding: 2px;
+    }
+  }
+
+  &__title {
+    font-family: @font-heading;
+    font-weight: bold;
+
+    &--small {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+
+  &__desc {
+
+    &--small {
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+}

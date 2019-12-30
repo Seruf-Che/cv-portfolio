@@ -1,0 +1,45 @@
+.timeline {
+  position: relative;
+  width: 100%;
+  margin-left: 20px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    display: block;
+    height: 100%;
+    width: 4px;
+    background-color: @color-content
+  }
+
+  &__item {
+    position: relative;
+    margin-bottom: 20px;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: -24px;
+      top: 4px;
+      display: block;
+      width: 12px;
+      height: 12px;
+      background-color: @color-bg;
+      border: 2px @color-content solid;
+      border-radius: 50%;
+      z-index: 2;
+    }
+
+    &--current::after {
+      background-color: @color-content;
+    }
+  }
+  
+  @media only screen and @mobile-width {
+    & {
+      width: 86%;
+    }
+  }
+}
