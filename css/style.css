@@ -1,13 +1,5 @@
-/*
-Проверить h1
-Проверить нужен ли font-family: 'PT Sans Caption' normal;
-achivements (tickets, themes)
-*/
-/*~~~~~~~~~~~~~Vars*/
 /*Layouts*/
 /*Colors*/
-/*Fonts*/
-/*Other*/
 /*Fonts*/
 @font-face {
   font-family: 'Poppins';
@@ -33,9 +25,6 @@ achivements (tickets, themes)
   font-weight: 700;
   src: local('PT Sans Caption Bold'), local('PTSans-CaptionBold'), url('../fonts/PTSans-CaptionBold.woff2') format('woff2'), url('../fonts/PTSans-CaptionBold.woff') format('woff');
 }
-/*End Fonts*/
-/*End Vars~~~~~~~~~~~~~~~~~*/
-/*Scafolding*/
 html {
   box-sizing: border-box;
   position: relative;
@@ -71,12 +60,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-/*Free host styles*/
-[style="text-align:right;position:fixed;bottom:3px;right:3px;width:100%;z-index:999999;cursor:pointer;line-height:0;display:block;"] {
-  display: none !important;
-}
-/*END Scafolding*/
-/*Typography*/
 .heading {
   position: relative;
   margin: 0;
@@ -142,8 +125,6 @@ p {
 .link--inverted {
   color: #2b1103;
 }
-/*End Typography*/
-/*section*/
 .section {
   display: flex;
   flex-wrap: wrap;
@@ -154,8 +135,6 @@ p {
   width: 1024px;
   margin: 0 auto;
 }
-/*END section*/
-/*Column*/
 .col {
   display: flex;
   flex-direction: column;
@@ -212,8 +191,6 @@ p {
     padding: 0 10px;
   }
 }
-/*End Column*/
-/*Skills*/
 .skills {
   display: flex;
   flex-direction: row;
@@ -328,6 +305,9 @@ p {
 .skills__icon--mongodb {
   background-image: url('../img/mongodb.png');
 }
+.skills__icon--simracing {
+  background-image: url('../img/simracing.png');
+}
 .skills__meta {
   display: flex;
   flex-direction: column;
@@ -357,15 +337,11 @@ p {
   font-size: 10px;
   line-height: 12px;
 }
-/*END Skills*/
-/*Divider*/
 .divider {
   display: block;
   width: 100%;
   padding: 10px 0;
 }
-/*END Divider*/
-/*Timeline*/
 .timeline {
   position: relative;
   width: 100%;
@@ -406,8 +382,6 @@ p {
     width: 86%;
   }
 }
-/*END Timeline*/
-/*portfolio*/
 .portfolio {
   display: flex;
   flex-direction: row;
@@ -467,7 +441,6 @@ p {
   line-height: 20px;
   font-weight: 400;
 }
-/*Button*/
 .button {
   display: block;
   margin: 0 auto;
@@ -487,8 +460,8 @@ p {
   border-color: #f3ca0c;
   color: rgba(43, 17, 3, 0.9);
 }
-/*page-footer*/
 .page-footer {
   margin-bottom: 40px;
+  padding: 0 20px;
   text-align: center;
 }
