@@ -310,6 +310,9 @@ p {
 .skills__icon--simracing {
   background-image: url('../img/simracing.png');
 }
+.skills__icon--webpack {
+  background-image: url('../img/webpack.png');
+}
 .skills__meta {
   display: flex;
   flex-direction: column;
