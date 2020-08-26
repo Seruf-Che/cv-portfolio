@@ -1,6 +1,8 @@
 # Oleksii Cherednichenko, August 20, 1992
 Oleksii's Cherednichenko cv/portfolio
 
+[see the website](https://seruf-che.github.io/cv-portfolio/)
+
 ### Contacts
 alexche92@gmail.com
 
