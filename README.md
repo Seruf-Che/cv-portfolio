@@ -10,15 +10,17 @@ alexche92@gmail.com
 I am an ambitious problem solver with strong analytical skills, fascinated with coding and with web development in particular. I am prone to avoid emotional responses and attempt to be rational, so I always try to find the best objective solution and work efficiently. All of these skills allow me to easily accept rules and standards in such constantly evolving industry as web development.
 
 ### Work experience
-13.02.2017 CMSMASTERS
+02.2017 - present Freelance
 
-13.07.2015 – 31.05.2016 Carolina logistics, Candler, NC, USA
+02.2017 - 02.2020 CMSMASTERS
 
-03.04.2014 – 05.10.2014 Nibulon, Mykolaiv, Ukraine
+07.2015 – 05.2016 Carolina logistics, Candler, NC, USA
 
-01.04.2011 – 01.04.2014 Admiral Makarov National University of Shipbuilding, Mykolaiv, Ukraine
+04.2014 – 10.2014 Nibulon, Mykolaiv, Ukraine
 
-01.10.2010 – 31.03.2011 Admiral Makarov National University of Shipbuilding, Mykolaiv, Ukraine
+04.2011 – 04.2014 Admiral Makarov National University of Shipbuilding, Mykolaiv, Ukraine
+
+10.2010 – 03.2011 Admiral Makarov National University of Shipbuilding, Mykolaiv, Ukraine
 
 
 ### Education
