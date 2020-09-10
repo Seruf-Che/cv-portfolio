@@ -98,7 +98,9 @@ module.exports = function(grunt) {
             "fonts/**/*.{woff,woff2,ttf,eot}",
             "img/**",
             "js/**",
-            "video/**"
+            "video/**",
+            "*.xml",
+            "robots.txt"
           ],
           dest: "build"
         },
