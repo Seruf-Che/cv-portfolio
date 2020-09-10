@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://seruf-che.github.io/cv-portfolio/sitemap.xml
