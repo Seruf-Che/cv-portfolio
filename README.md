@@ -1,4 +1,4 @@
-# Oleksii Cherednichenko, August 20, 1992
+# Oleksii Cherednichenko
 Oleksii's Cherednichenko cv/portfolio
 
 [see the website](https://seruf-che.github.io/cv-portfolio/)
