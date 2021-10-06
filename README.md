@@ -10,7 +10,9 @@ alexche92@gmail.com
 I am an ambitious problem solver with strong analytical skills, fascinated with coding and with web development in particular. I am prone to avoid emotional responses and attempt to be rational, so I always try to find the best objective solution and work efficiently. All of these skills allow me to easily accept rules and standards in such constantly evolving industry as web development.
 
 ### Work experience
-02.2017 - present Freelance
+12.2020 - *present* MobiDev
+
+02.2020 - 11.2020 Freelance
 
 02.2017 - 02.2020 CMSMASTERS
 
@@ -39,37 +41,23 @@ Diploma of Motorman
 Bachelor of Shipbuilding and Ocean Technologies
 
 ### Skills
-HTML5 - High
 
-CSS3 - High
+#### Main stack:
 
-JS - Medium
+JS
 
-React/Redux - Medium
+NestJS
 
-Node.js - Base
+MongoDB
 
-MongoDB - Base
+HTML5
 
-Grunt - Base
+CSS3
 
-Gulp - Base
-
-Less - Medium
-
-Sass - Medium
-
-WordPress - High skill in using
-
-PHP - Base
-
-Photoshop - Medium
-
-CorelDRAW - High
-
-Autocad - High
+Node.js
 
 ### Languages
+
 English - intermediate
 
 Ukrainian - native
