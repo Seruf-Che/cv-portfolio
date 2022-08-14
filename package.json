@@ -1,5 +1,5 @@
 {
-  "name": "Seruf-build",
+  "name": "seruf-build",
   "version": "1.0.0",
   "description": "Seruf's build",
   "main": "index.js",
@@ -22,7 +22,8 @@
     "grunt-juwain-posthtml": "^0.6.0",
     "grunt-postcss": "^0.9.0",
     "load-grunt-tasks": "^3.5.2",
-    "posthtml-include": "^1.1.0"
+    "posthtml-include": "^1.1.0",
+    "minimist": ">=1.2.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
